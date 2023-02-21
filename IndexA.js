@@ -1,5 +1,5 @@
 
-function Ingreso() {
+/*function Ingreso() {
 
     let nombre = "";
     while (nombre === "") {
@@ -10,7 +10,7 @@ function Ingreso() {
     }
     console.log("Bienvenido a Seguros Rivadeneira", nombre);
 }
-//entrada del usuario//
+entrada del usuario
 
 const RC = ["Daños a terceros", "Daños a cosas de terceros"]
 const Robo = ["Daños a terceros", "Daños a cosas de terceros", "Incendio total", "Robo total"]
@@ -58,4 +58,4 @@ function Eleccion() {
 Ingreso()
 Planes()
 Eleccion()
-console.log("Muchas gracias por tu visita!!");
+console.log("Muchas gracias por tu visita!!");*/
