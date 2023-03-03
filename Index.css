@@ -1,19 +1,33 @@
 body {
-  background-image: url("/imagenes/Moto2.jpg");
+  background-image: url("/imagenes/garage.jpg");
   background-size: cover;
 }
 
 header{
   border: 1.5px solid black;
+  background-color: rgb(90, 86, 86);
+
+}
+
+.ColorTitulo{
+  color: aliceblue;
 }
 
 .CamposFormulario{
+  display: flex;
+  justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-footer.py-3 {
-  margin-top: 30px;
+.CentroFormulario{
+  display: flex;
+  justify-content: center;
+}
+
+
+footer {
+  margin-top: 150px;
 }
 
 
@@ -27,6 +41,12 @@ footer.py-3 {
   color:white;
 }
 
+.ColorRegistro{
+  margin-top: 80px;
+  margin-bottom: 100px;
+  color:white;
+}
+
 .ColorLetra2{
   margin-top: 30px;
   margin-bottom: 100px;
@@ -34,4 +54,23 @@ footer.py-3 {
 
 .ColorLetra3{
   color:white;
+}
+
+#BotonMoto:hover {
+  background-image: url("/imagenes/Moto2.jpg");
+  background-size: cover;
+}
+
+#BotonAuto:hover {
+  background-image: url("/imagenes/Auto2.jpg");
+  background-size: cover;
+  width: 150 px;
+}
+
+.Tarjetas{
+  margin-top: 45px;
+}
+
+.TarjetasTecho{
+  background-color: orange;
 }

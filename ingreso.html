@@ -27,37 +27,33 @@
     </div>
 
 
-    <div class="container form-container" id="datos">
-        <div class="text-center my-4">
-            <h1 class="ColorLetra">Completa los siguientes datos</h1>
-        </div>
-        <form>
-            <div class="row">
-                <div class="col-md-6 form-group CamposFormulario">
-                    <input type="text" class="form-control" placeholder="Año del vehiculo" id="Ano_del_vehiculo">
-                </div>
-                <div class="col-md-6 form-group CamposFormulario">
-                    <input type="text" class="form-control" placeholder="Marca" id="Marca_del_vehiculo">
-                </div>
-                <div class="col-md-6 form-group CamposFormulario">
-                    <input type="email" class="form-control" placeholder="Modelo" id="Modelo_del_vehiculo">
-                </div>
-                <div class="col-md-6 form-group CamposFormulario">
-                    <input type="tel" class="form-control" placeholder="Valor Vehiculo" id="Valor_vehiculo">
-                </div>
-                <div class="col-md-6 form-group CamposFormulario">
-                    <input type="text" class="form-control" placeholder="Uso" id="Uso_vehiculo">
-                </div>
-                <div class="col-md-6 form-group CamposFormulario">
-                    <input type="text" class="form-control" placeholder="Código postal" id="Codigo_postal_vehiculo">
-                </div>
 
-            </div>
-        </form>
-        <div class="text-center my-4">
-            <button type="button" class="btn btn-primary btn-lg px-4 " id="BotonDeCotizacion"> COTIZAR </button>
+    <div class="px-4 py-5 my-5 text-center" id="Saludo">
+
+        <h1 class="display-5 fw-bold ColorRegistro">Registrate para comenzar</h1>
+        <div class="CentroFormulario">
+            <form>
+                <div class="row">
+                    <div class="col-md-12 form-group CamposFormulario">
+                        <input type="text" class="form-control" placeholder="Nombre" id="nombre">
+                    </div>
+                </div>
+            </form>
         </div>
+        <div class="CentroFormulario">
+            <form>
+                <div class="row">
+                    <div class="col-md-12 form-group CamposFormulario">
+                        <input type="text" class="form-control" placeholder="Contraseña" id="pass">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!--<button class="btn btn-primary btn-lg px-4">Registrate</button>-->
+        <button class="btn btn-primary btn-lg px-4" id="btn_registro" id="Ingreso">Registrate</button>
+        <button class="btn btn-primary btn-lg px-4 btn_login" id="btn_login">Ingresar  </button>
     </div>
+
 
 
 
@@ -79,8 +75,7 @@
         </div>
     </footer>
 
-    <script src="Cotizacion.js"></script>
-
+    <script src="Ingreso.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
